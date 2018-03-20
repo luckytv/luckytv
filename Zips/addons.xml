@@ -20,8 +20,8 @@
         </requires>
         <extension point="xbmc.addon.repository" name="[COLOR white][B]LuckyTv[/B][/COLOR]">
 		<dir>
-            <info compressed="false">https://raw.githubusercontent.com/luckytv/luckytv/master/Zips/_addons.xml</info>
-            <checksum>https://raw.githubusercontent.com/luckytv/luckytv/master/Zips/_addons.xml.md5</checksum>
+            <info compressed="false">https://raw.githubusercontent.com/luckytv/luckytv/master/Zips/addons.xml</info>
+            <checksum>https://raw.githubusercontent.com/luckytv/luckytv/master/Zips/addons.xml.md5</checksum>
             <datadir zip="true">https://raw.githubusercontent.com/luckytv/luckytv/master/Zips/</datadir>
 		</dir>
             <dir>
