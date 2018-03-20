@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<addons>
+<addon id="plugin.program.luckytvwizard" name="[COLOR gold]LuckyTV [COLOR blue]Wizard[/COLOR]" version="1.0" provider-name="[B][I][COLOR blue]LuckyTV[/COLOR][/I][/B]">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="default.py">
+    <provides>program executable</provides>
+  </extension>
+  <extension point="xbmc.service" library="startup.py" start="startup" />
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en">Installer for [COLOR gold]LuckyTv Builds[/COLOR] Builds</summary>
+    <description lang="en">This Wizard allows you to install the latest version of Kodi San Antonio builds from [B][COLOR cyan]LuckyTV[/COLOR][/B].  It also provides Maintenance, Tools and Tweaks sections to help you keep your Media Center running as smoothly as possible.</description>
+    <disclaimer lang="en">For support, follow me on Twitter at:  [B][COLOR blue]@Lucky77_TV[/COLOR][/B]</disclaimer>
+    <platform>all</platform>
+	<license>GNU GENERAL PUBLIC LICENSE. Version 2, June 1991</license>
+  </extension>
+</addon>
+
+    <addon id="repository.luckytv" name="LuckyTv Repo" version="0.1.0" provider-name="LuckyTv">
+        <requires>
+            <import addon="xbmc.addon" version="12.0.0"/>
+        </requires>
+        <extension point="xbmc.addon.repository" name="LuckyTv Repo">
+            <info compressed="false">http://archive.org/_download/LuckyTv/addons.xml</info>
+            <checksum>http://archive.org/_download/LuckyTv/addons.xml.md5</checksum>
+            <datadir zip="true">http://archive.org/_download/LuckyTv/</datadir>
+            <hashes>false</hashes>
+        </extension>
+        <extension point="xbmc.addon.metadata">
+            <summary>LuckyTv Repository</summary>
+            <description>LuckyTv Repository for Kodi San Antonio Addons</description>
+            <platform>all</platform>
+    </extension>
+</addon>
+</addons>
