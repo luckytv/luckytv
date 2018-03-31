@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<addon id="repository.luckytv" name="[COLOR blue]LuckyTv Addon Repo[/COLOR]" version="0.1.0" provider-name="LuckyTv">
+<addon id="repository.luckytv" name="[COLOR blue]LuckyTv Addon Repo[/COLOR]" version="0.1.1" provider-name="LuckyTv">
         <requires>
             <import addon="xbmc.addon" version="12.0.0"/>
         </requires>
@@ -18,11 +18,6 @@
 			<info compressed="false">https://raw.githubusercontent.com/totalrevolution/python-koding/master/zips/addons.xml</info>
 			<checksum>https://raw.githubusercontent.com/totalrevolution/python-koding/master/zips/addons.xml.md5</checksum>
 			<datadir zip="true">https://raw.githubusercontent.com/totalrevolution/python-koding/master/zips/</datadir>
-		</dir>
-		<dir>
-			<info compressed="false">https://raw.githubusercontent.com/marcelveldt/repository.marcelveldt/master/addons.xml</info>
-			<checksum>https://raw.githubusercontent.com/marcelveldt/repository.marcelveldt/master/addons.xml.md5</checksum>
-			<datadir zip="true">https://raw.githubusercontent.com/marcelveldt/repository.marcelveldt/master/</datadir>
 		</dir>
         </extension>
         <extension point="xbmc.addon.metadata">
