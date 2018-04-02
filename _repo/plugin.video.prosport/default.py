@@ -9,7 +9,7 @@
 #######################################################################
 
 # Addon Name: LuckyTv Sports
-# Addon id: plugin.video.luckytvsports
+# Addon id: plugin.video.prosport
 # Addon Provider: LuckyTv
 
 #######################################################################
@@ -53,7 +53,7 @@ def GameStatus(status):
     else: return '' 
 
 def Main():
-    basemenu.oldAddDir("[COLOR=snow][ Sports Hub Status and Updates ][/COLOR]", '', iconImg='https://archive.org/download/BackToTheFuture_201802/LuckytvSports.png', mode="news")
+    basemenu.oldAddDir("[COLOR=snow][ LuckyTv Sports Status and Updates ][/COLOR]", '', iconImg='https://archive.org/download/BackToTheFuture_201802/LuckytvSports.png', mode="news")
     basemenu.oldAddDir("[COLOR=FF00FF00][ NBA GAMES ][/COLOR]", '', iconImg=LOGOS['nba'], mode="nba")
     basemenu.oldAddDir("[COLOR=FF00FF00][ NHL GAMES ][/COLOR]", '', iconImg=LOGOS['nhl'], mode="nhl")
     basemenu.oldAddDir("[COLOR=FF00FF00][ NFL GAMES ][/COLOR]", '', iconImg=LOGOS['nfl'], mode="nfl")

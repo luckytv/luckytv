@@ -7,9 +7,9 @@
  # ----------------------------------------------------------------------------
 #######################################################################
 
-# Addon Name: Sports Hub
+# Addon Name: LuckyTv Sports
 # Addon id: plugin.video.prosport
-# Addon Provider: MuadDib
+# Addon Provider: LuckyTv
 
 #######################################################################
 # Import Modules Section
