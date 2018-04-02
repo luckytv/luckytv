@@ -53,16 +53,16 @@ def GameStatus(status):
     else: return '' 
 
 def Main():
-    basemenu.oldAddDir("[COLOR=snow][ LuckyTv Sports Status and Updates ][/COLOR]", '', iconImg='special://home/addons/plugin.video.prosport/icon.png', mode="news")
+    basemenu.oldAddDir("[COLOR=snow][ Sports Hub Status and Updates ][/COLOR]", '', iconImg='https://archive.org/download/BackToTheFuture_201802/LuckytvSports.png', mode="news")
     basemenu.oldAddDir("[COLOR=FF00FF00][ NBA GAMES ][/COLOR]", '', iconImg=LOGOS['nba'], mode="nba")
     basemenu.oldAddDir("[COLOR=FF00FF00][ NHL GAMES ][/COLOR]", '', iconImg=LOGOS['nhl'], mode="nhl")
     basemenu.oldAddDir("[COLOR=FF00FF00][ NFL GAMES ][/COLOR]", '', iconImg=LOGOS['nfl'], mode="nfl")
     basemenu.oldAddDir("[COLOR=FF00FF00][ MLB GAMES ][/COLOR]", '', iconImg=LOGOS['mlb'], mode="mlb")
     basemenu.oldAddDir("[COLOR=blue][ MY SUBREDDITS ][/COLOR]", '', iconImg=LOGOS['reddit'], mode="myreddit")
-    basemenu.oldAddDir("[COLOR=FFFFFF00][ Highlights ][/COLOR]", '', iconImg='special://home/addons/plugin.video.prosport/icon.png', mode="highlights")
-    basemenu.oldAddDir("[COLOR=FFFFFF00][ Stats And Standings ][/COLOR]", '', iconImg='special://home/addons/plugin.video.prosport/icon.png', mode="stats")
-    basemenu.oldAddDir("[COLOR=FFFFFF00][ Archive ][/COLOR]", '', iconImg='https://raw.githubusercontent.com/muaddibttv/neosport/master/icons/archiveicon.png', mode="archive")
-    basemenu.oldAddDir("[COLOR=snow][ Settings ][/COLOR]", '', iconImg='special://home/addons/plugin.video.prosport/icon.png', mode="settings")
+    basemenu.oldAddDir("[COLOR=FFFFFF00][ Highlights ][/COLOR]", '', iconImg='https://archive.org/download/BackToTheFuture_201802/LuckytvSports.png', mode="highlights")
+    basemenu.oldAddDir("[COLOR=FFFFFF00][ Stats And Standings ][/COLOR]", '', iconImg='https://archive.org/download/BackToTheFuture_201802/LuckytvSports.png', mode="stats")
+    basemenu.oldAddDir("[COLOR=FFFFFF00][ Archive ][/COLOR]", '', iconImg='https://archive.org/download/BackToTheFuture_201802/LuckytvSports.png', mode="archive")
+    basemenu.oldAddDir("[COLOR=snow][ Settings ][/COLOR]", '', iconImg='https://archive.org/download/BackToTheFuture_201802/LuckytvSports.png', mode="settings")
     xbmcplugin.endOfDirectory(h)
 
 def Highlights_Menu():
@@ -151,7 +151,7 @@ def Games(mode):
     today = datetime.utcnow() - timedelta(hours=8)
     today_from = str(today.strftime('%Y-%m-%d'))+'T00:00:00.000-05:00'
     today_to = str(today.strftime('%Y-%m-%d'))+'T23:59:00.000-05:00'
-    url = 'http://www.sbnation.com/sbn_scoreboard/ajax_leagues_and_events?ranges ['+mode+'][from]='+today_from+'&ranges['+mode+'][until]='+today_to+'&_='+str(int(time.time()))
+    url = 'http://www.sbnation.com/sbn_scoreboard/ajax_leagues_and_events?ranges['+mode+'][from]='+today_from+'&ranges['+mode+'][until]='+today_to+'&_='+str(int(time.time()))
     js = url_utils.GetJSON(url)
     js = js['leagues'][mode]
     basemenu.oldAddDir("[COLOR=FF00FF00][B]--"+mode.upper()+" STATS & STANDINGS--[/B][/COLOR]", '', iconImg='http://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/'+mode+'.png', mode=mode+"stats")
@@ -339,13 +339,13 @@ def getProStreams(ur, home, away):
         xbmcplugin.endOfDirectory(h, cacheToDisc=True)
 
 def getMyStreams(url, home):
-    r = praw.Reddit(user_agent='xbmc LuckyTv Sports addon')
+    r = praw.Reddit(user_agent='xbmc sports hub addon')
     if username and password:
         try:
             r.login(username, password)
         except:
             dialog = xbmcgui.Dialog()
-            dialog.notification('LuckyTv Sports', 'Please make sure reddit login and password are correct', xbmcgui.NOTIFICATION_WARNING, 3000)
+            dialog.notification('Sports Hub', 'Please make sure reddit login and password are correct', xbmcgui.NOTIFICATION_WARNING, 3000)
     r.config.api_request_delay = 0
     submission = r.get_submission(submission_id=url)
     links=[]

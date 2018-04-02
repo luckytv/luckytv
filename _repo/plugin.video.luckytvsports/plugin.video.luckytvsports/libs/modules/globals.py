@@ -7,7 +7,7 @@
  # ----------------------------------------------------------------------------
 #######################################################################
 
-# Addon Name: LuckyTv Sports
+# Addon Name: : LuckyTv Sports
 # Addon id: plugin.video.luckytvsports
 # Addon Provider: LuckyTv
 
@@ -18,7 +18,7 @@ import base64, os, urllib, urlparse
 import xbmc, xbmcaddon
 #######################################################################
 
-THISADDON           = xbmcaddon.Addon('plugin.video.luckytvsports')
+THISADDON           = xbmcaddon.Addon('plugin.video.prosport')
 THISADDONNAME       = THISADDON.getAddonInfo('name')
 ADDON_ID            = xbmcaddon.Addon().getAddonInfo('id')
 path                = THISADDON.getAddonInfo('path')

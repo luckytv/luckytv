@@ -1,11 +1,11 @@
 CURRENT STATUS: [COLOR springgreen]Good[/COLOR]
 
-[COLOR red]LuckyTv Sports by LuckyTv Current Version 0.1[/COLOR]
+[COLOR red]Sports Hub by Muad'Dib Current Version 0.91[/COLOR]
 
 Status:
         Archives: [COLOR lime]Good[/COLOR]
         Highlights: [COLOR lime]Good[/COLOR]
-        Reddit Streams: [COLOR lime]Listings Show - Streams active[/COLOR]
+        Reddit Streams: [COLOR yellow]Listings Show - Streams not yet active[/COLOR]
 
 [COLOR red]-------------------------------------------------------------------------------------------------------[/COLOR]
 

@@ -1,4 +1,4 @@
-Original Notice from LuckyTv Developers prior to decommission in 2016
+Original Notice from Pro Sport Developers prior to decommission in 2016
 
 #/*
 # *      Copyright (C) 2015-2016 gerikss, modded with permission by podgod
