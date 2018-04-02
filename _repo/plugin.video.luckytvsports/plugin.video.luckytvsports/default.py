@@ -247,7 +247,7 @@ def Topics(url):
             r.login(username, password)
         except:
             dialog = xbmcgui.Dialog()
-            dialog.notification('Sports Hub', 'Please make sure reddit login and password are correct', xbmcgui.NOTIFICATION_WARNING, 3000)
+            dialog.notification('LuckyTv Sports', 'Please make sure reddit login and password are correct', xbmcgui.NOTIFICATION_WARNING, 3000)
     r.config.api_request_delay = 0
     for submission in r.get_subreddit(url.split(':')[0]).get_hot(limit=30):
         if ":" in url:
@@ -345,7 +345,7 @@ def getMyStreams(url, home):
             r.login(username, password)
         except:
             dialog = xbmcgui.Dialog()
-            dialog.notification('Sports Hub', 'Please make sure reddit login and password are correct', xbmcgui.NOTIFICATION_WARNING, 3000)
+            dialog.notification('LuckyTv Sports', 'Please make sure reddit login and password are correct', xbmcgui.NOTIFICATION_WARNING, 3000)
     r.config.api_request_delay = 0
     submission = r.get_submission(submission_id=url)
     links=[]

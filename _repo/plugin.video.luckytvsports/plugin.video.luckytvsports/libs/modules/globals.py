@@ -7,9 +7,9 @@
  # ----------------------------------------------------------------------------
 #######################################################################
 
-# Addon Name: : LuckyTv Sports
-# Addon id: plugin.video.luckytvsports
-# Addon Provider: LuckyTv
+# Addon Name: Sports Hub
+# Addon id: plugin.video.prosport
+# Addon Provider: MuadDib
 
 #######################################################################
 # Import Modules Section
@@ -70,13 +70,13 @@ LOGO_ARCHIVE ={'nba':'https://raw.githubusercontent.com/muaddibttv/neosport/mast
 'soccer':'https://raw.githubusercontent.com/muaddibttv/neosport/master/icons/soccerarchive.png',
 'soccerfan':'https://raw.githubusercontent.com/muaddibttv/neosport/master/fanart/soccerarchive.png'}
 
-SD_STREAMS = ['giostreams.eu','watch-sportstv.boards.net', 'hdstream4u.com', 'nbastream.net', 'wizhdsports.com', 'antenasport.com', 
-            'sportsnewsupdated.com', 'nba4free.com', 'emagersport.tk', 'welovesports.xyz', 'wiz1.net', 'bosscast.net', 
+SD_STREAMS = ['giostreams.eu','watch-sportstv.boards.net', 'hdstream4u.com', 'stream24k.com', 'wizhdsports.com', 'antenasport.com', 
+            'sportsnewsupdated.com', 'watchnba.tv', 'feedredsoccer.at.ua', 'jugandoes.com', 'wiz1.net', 'bosscast.net', 
             'watchsportstv.boards.net', 'tv-link.in', 'klivetv.co', 'videosport.me', 'livesoccerg.com', 'zunox.hk', 'singidunum.', 
-            'zona4vip.com', 'ciscoweb.ml', 'streamendous.com','xfasports.com', 'sports-arena.net', 'stablelivestream.com', 
+            'zona4vip.com', 'ciscoweb.ml', 'streamendous.com','streamm.eu', 'sports-arena.net', 'stablelivestream.com', 
             'iguide.to', 'sportsleague.me','kostatz.com', 'soccerpluslive.com', 'zunox', 'apkfifa.com','watchhdsports.xyz','lovelysports2016.ml',
             'sports4u.live','tusalavip3.es.tl', 'neymargoals.com', 'crichd.sx', 'unitedstream.live','stream4us.info','freecast.xyz','focustream.info',
-            's4power.club', 'footystreams.net', 'ripple.is', 'pushmycar.cf','sasastreams.pw','hehestreams.xyz/nba/games',
-            'bubbysports.ml', 'sportz-hd.com','immortal-tv.net','besasport.top','genti.stream', 'yaboy.xyz',
-            'eplstreams.club', 'gentistream.com','streamtoday.us','yoursportsinhd.com','apkadsense.com',
-            'sportshd.me', 'imabee.ca', 'pop-sports.ml', 'bilasport.pw', 'primealpha.ml' ]
+            's4power.club', 'footystreams.net', 'topstream.es.tl', 'pushmycar.cf','zifootball.us','hehestreams.xyz/nba/games',
+            'bubbysports.ml', 'sportz-hd.com','immortal-tv.net','besasport.top', 'nbalivestreams.net','genti.stream', 'yaboy.xyz',
+            'eplstreams.club', 'gentistream.com','streamtoday.us','yoursportsinhd.com','nbastream.pw', 'watchkobe.info', 'ripple.is',
+            'sportshd.me', 'imabee.ca', 'pop-sports.ml', 'bilasport.pw', 'primealpha.ml','nba4free.com','emagersport.tk','welovesports.xyz', ]
