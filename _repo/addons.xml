@@ -55,7 +55,7 @@
     </extension>
 </addon>
 
-<addon id="plugin.video.prosport" name="LuckyTv Sports" version="1.0" provider-name="LuckyTv">
+<addon id="plugin.video.prosport" name="LuckyTv Sports" version="1.1" provider-name="LuckyTv">
   <requires>
     <import addon="xbmc.python" version="2.1.0" />
      <import addon="script.module.requests" version="2.18.4" />
