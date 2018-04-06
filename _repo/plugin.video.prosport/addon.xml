@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="plugin.video.prosport" name="LuckyTv Sports" version="1.0" provider-name="LuckyTv">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0" />
+     <import addon="script.module.requests" version="2.18.4" />
+     <import addon="script.module.urlresolver" version="5.0.09" />
+     <import addon="script.module.liveresolver" version="0.1.50" />
+  </requires>
+  <extension point="xbmc.python.pluginsource" provides="video" library="default.py">
+    <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary>Live HD Sport Streams</summary>
+    <description>Live HD Sport Streams</description>
+    <disclaimer lang="en">The author does not own or host any content found within this Addon. The author is not connected to or in any other way affiliated with Kodi, Team Kodi, or the XBMC Foundation.</disclaimer>
+    <platform>all</platform>
+    <language>en</language>
+  </extension>
+</addon>

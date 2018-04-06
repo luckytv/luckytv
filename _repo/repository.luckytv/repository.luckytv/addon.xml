@@ -1,21 +1,35 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<addon id="repository.luckytv" name="[COLOR blue]LuckyTv Addon Repo[/COLOR]" version="0.1.2" provider-name="LuckyTv">
-        <requires>
-            <import addon="xbmc.addon" version="12.0.0"/>
-        </requires>
-        <extension point="xbmc.addon.repository" name="[COLOR blue]LuckyTv Addon Repo[/COLOR]">
+<addon id="repository.luckytv" name="[COLOR blue]LuckyTv Addon Repo[/COLOR]" version="0.1.3" provider-name="LuckyTv">
+    <requires>
+        <import addon="xbmc.addon" version="12.0.0"/>
+    </requires>
+    <extension point="xbmc.addon.repository" name="[COLOR blue]LuckyTv Addon Repo[/COLOR]">
+		<info compressed="false">
+		https://raw.githubusercontent.com/luckytv/luckytv/master/_repo/addons.xml</info>
+        <checksum>https://raw.githubusercontent.com/luckytv/luckytv/master/_repo/addons.xml.md5</checksum>
+        <datadir zip="true">https://raw.githubusercontent.com/luckytv/luckytv/master/_repo/</datadir>
 		<dir>
-            <info compressed="false">https://raw.githubusercontent.com/luckytv/luckytv/master/_repo/addons.xml</info>
-            <checksum>https://raw.githubusercontent.com/luckytv/luckytv/master/_repo/addons.xml.md5</checksum>
-            <datadir zip="true">https://raw.githubusercontent.com/luckytv/luckytv/master/_repo/</datadir>
-		</dir>
+            <info compressed="false">https://raw.githubusercontent.com/teamuniversal/scrapers/master/_modules4all/zips/addons.xml</info>
+            <checksum>https://raw.githubusercontent.com/teamuniversal/scrapers/master/_modules4all/zips/addons.xml.md5</checksum>
+            <datadir zip="true">https://raw.githubusercontent.com/teamuniversal/scrapers/master/_modules4all/zips/</datadir>
+        </dir>
+        <dir>
+            <info compressed="false">https://raw.githubusercontent.com/marcelveldt/repository.marcelveldt/master/addons.xml</info>
+            <checksum>https://raw.githubusercontent.com/marcelveldt/repository.marcelveldt/master/addons.xml.md5</checksum>
+            <datadir zip="true">https://raw.githubusercontent.com/marcelveldt/repository.marcelveldt/master/</datadir>
+        </dir>
+        <dir>
+            <info compressed="false">https://raw.githubusercontent.com/jsergio123/zips/master/addons.xml</info>
+            <checksum>https://raw.githubusercontent.com/jsergio123/zips/master/addons.xml.md5</checksum>
+            <datadir zip="true">https://raw.githubusercontent.com/jsergio123/zips/master/</datadir>
+        </dir>
 		<dir>
 			<info compressed="false">https://raw.githubusercontent.com/totalrevolution/python-koding/master/zips/addons.xml</info>
 			<checksum>https://raw.githubusercontent.com/totalrevolution/python-koding/master/zips/addons.xml.md5</checksum>
 			<datadir zip="true">https://raw.githubusercontent.com/totalrevolution/python-koding/master/zips/</datadir>
 		</dir>
-        </extension>
-        <extension point="xbmc.addon.metadata">
+    </extension>
+    <extension point="xbmc.addon.metadata">
             <summary>LuckyTv Repository to Install Lucky Tv Builds and Apks</summary>
             <description>LuckyTv Repo</description>
             <platform>all</platform>
