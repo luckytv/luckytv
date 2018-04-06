@@ -110,5 +110,5 @@ HEADERMESSAGE  = 'LuckyTv Wizard'
 # url to image if using Image 424x180
 HEADERIMAGE    = ''
 # Background for Notification Window
-BACKGROUND     = 'https://archive.org/download/BackToTheFuture_201802/Backtothefuture.jpg'
+BACKGROUND     = 'https://archive.org/download/BackToTheFuture_201802/black-background-dark-faces-grayscale-wallpaper.jpg'
 #########################################################
