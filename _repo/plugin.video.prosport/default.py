@@ -307,7 +307,7 @@ def getProStreams(ur, home, away):
     away_f = away.lower().split()[0]
     home_l = home.lower().split()[-1]
     away_l = away.lower().split()[-1]
-    r = praw.Reddit(user_agent='xbmc sports hub addon')
+    r = praw.Reddit(user_agent='xbmc LuckyTv Sports addon')
     r.config.api_request_delay = 0
     links=[]
     for submission in r.get_subreddit(ur+'streams').get_hot(limit=30):
