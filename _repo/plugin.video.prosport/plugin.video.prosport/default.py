@@ -238,7 +238,7 @@ def MyReddits():
     xbmcplugin.endOfDirectory(h)
 
 def Topics(url):
-    r = praw.Reddit(user_agent='xbmc sports hub addon')
+    r = praw.Reddit(user_agent='xbmc luckytv sports addon')
     if username and password:
         try:
             r.login(username, password)
@@ -307,7 +307,7 @@ def getProStreams(ur, home, away):
     away_f = away.lower().split()[0]
     home_l = home.lower().split()[-1]
     away_l = away.lower().split()[-1]
-    r = praw.Reddit(user_agent='xbmc sports hub addon')
+    r = praw.Reddit(user_agent='xbmc luckytv sports addon')
     r.config.api_request_delay = 0
     links=[]
     for submission in r.get_subreddit(ur+'streams').get_hot(limit=30):
@@ -336,7 +336,7 @@ def getProStreams(ur, home, away):
         xbmcplugin.endOfDirectory(h, cacheToDisc=True)
 
 def getMyStreams(url, home):
-    r = praw.Reddit(user_agent='xbmc sports hub addon')
+    r = praw.Reddit(user_agent='xbmc luckytv sports addon')
     if username and password:
         try:
             r.login(username, password)
@@ -1447,7 +1447,7 @@ def play_stream(url, orig_title):
     log_utils.log('play_stream : ParseLink : ' + str(url))
     if not url:
         dialog = xbmcgui.Dialog()
-        dialog.notification('Sports Hub', 'Stream not found', xbmcgui.NOTIFICATION_INFO, 3000)
+        dialog.notification('Luckytv Sports', 'Stream not found', xbmcgui.NOTIFICATION_INFO, 3000)
     else:
         log_utils.log('play_stream : Init URL : ' + url)
         if url.endswith('.ts') or 'bit.ly' in url:
