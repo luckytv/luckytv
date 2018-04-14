@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<addon id="repository.luckytv" name="[COLOR blue]LuckyTv Repository[/COLOR]" version="0.1.3" provider-name="LuckyTv">
+<addon id="repository.luckytv" name="[COLOR blue]LuckyTv Repository[/COLOR]" version="0.1.4" provider-name="LuckyTv">
         <requires>
             <import addon="xbmc.addon" version="12.0.0"/>
         </requires>
