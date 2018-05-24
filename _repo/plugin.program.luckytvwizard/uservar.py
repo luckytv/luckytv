@@ -12,7 +12,7 @@ BUILDFILE      = 'https://archive.org/download/repository.luckytv/BuildFiles.txt
 # 0 being every startup of kodi
 UPDATECHECK    = 0
 # Text File with apk info in it.
-APKFILE        = 'https://archive.org/download/repository.luckytv/Apks.txt'
+APKFILE        = 'https://raw.githubusercontent.com/luckytv/luckytv/master/_zips/Apks.txt'
 # Text File with Youtube Videos urls.  Leave as 'http://' to ignore
 YOUTUBETITLE   = 'LuckyTv Builds Start Up & Information'
 YOUTUBEFILE    = 'https://archive.org/download/repository.luckytv/Tutorials.txt'
