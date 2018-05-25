@@ -7,7 +7,7 @@ ADDON_ID       = xbmcaddon.Addon().getAddonInfo('id')
 ADDONTITLE     = 'LuckyTv Wizard'
 EXCLUDES       = [ADDON_ID, 'repository.luckytv', 'plugin.program.luckytvwizard']
 # Text File with build info in it.
-BUILDFILE      = 'https://archive.org/download/repository.luckytv/BuildFiles.txt'
+BUILDFILE      = 'https://raw.githubusercontent.com/luckytv/luckytv/master/_zips/BuildFiles.txt'
 # How often you would list it to check for build updates in days
 # 0 being every startup of kodi
 UPDATECHECK    = 0
@@ -15,9 +15,9 @@ UPDATECHECK    = 0
 APKFILE        = 'https://raw.githubusercontent.com/luckytv/luckytv/master/_zips/Apks.txt'
 # Text File with Youtube Videos urls.  Leave as 'http://' to ignore
 YOUTUBETITLE   = 'LuckyTv Builds Start Up & Information'
-YOUTUBEFILE    = 'https://archive.org/download/repository.luckytv/Tutorials.txt'
+YOUTUBEFILE    = 'https://raw.githubusercontent.com/luckytv/luckytv/master/_zips/Tutorials.txt'
 # Text File for addon installer.  Leave as 'http://' to ignore
-ADDONFILE      = 'https://archive.org/download/repository.luckytv/Addons.txt'
+ADDONFILE      = 'https://raw.githubusercontent.com/luckytv/luckytv/master/_zips/Addons.txt'
 # Text File for advanced settings.  Leave as 'http://' to ignore
 ADVANCEDFILE   = 'http://'
 
