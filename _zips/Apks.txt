@@ -32,7 +32,7 @@ description="Movies and Tv Shows"
 
 name="Yes Player"
 section="no"
-url="https://www.apkmirror.com/wp-content/themes/APKMirror/download.php?id=414823"
+url="https://www.apkmirror.com/wp-content/themes/APKMirror/download.php?id=415274"
 icon="https://archive.org/download/BackToTheFuture_201802/yesplayer.png" 
 fanart="http://"
 adult="no"
