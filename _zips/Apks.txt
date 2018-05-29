@@ -72,7 +72,7 @@ description="New Kodi Version"
 
 name="LuckyTv App"
 section="no"
-url="https://www.facebook.com/download/219300585328067/LuckyTv.apk?hash=AcrSigmssm3P7-E0"
+url="https://lookaside.fbsbx.com/file/LuckyTv.apk?token=AWxr3k58nPilSbtWJ3ZKalRdBMf6vmH-I3Nxes375UmOA0yicBJmdJ6JCKa93shStgpIWW_M-qaEiB8GCw8hflbRdrHjmKj9DWss5O_KQ6hfkX-RnMn4mYK-6fXoBDVC4-Qs3W4VQV42tboAyI2SeApN9_msXLfpK4j1JsEWwA1DD6FYc3t64_0iYDYmAxN1VGLEHSfFv0HPOf9zmd8A9ZVW"
 icon="https://archive.org/download/BackToTheFuture_201802/LuckytvLivetv.png"
 fanart="http://"
 adult="no"
