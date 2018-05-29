@@ -24,7 +24,7 @@ description="Live Tv App"
 
 name="Terrarium TV"
 section="no"
-url="https://www.apkmirror.com/wp-content/themes/APKMirror/download.php?id=395801"
+url="https://www.apkmirror.com/wp-content/themes/APKMirror/download.php?id=416101"
 icon="https://archive.org/download/BackToTheFuture_201802/terrarium-kodi.png" 
 fanart="http://"
 adult="no"
