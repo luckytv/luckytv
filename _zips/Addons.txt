@@ -1,6 +1,6 @@
 name="Sports Hub"
 plugin="plugin.video.sportshub"
-url="https://raw.githubusercontent.com/muaddibttv/tantrumrepo/tree/master/plugin.video.sportshub"
+url="https://raw.githubusercontent.com/muaddibttv/tantrumrepo/master/plugin.video.sportshub"
 repository="repository.tantrumtv"
 repositoryxml="https://raw.githubusercontent.com/muaddibttv/tantrumrepo/master/_zips/addons.xml"
 repositoryurl="http://www.tantrumtv.com/download/"
