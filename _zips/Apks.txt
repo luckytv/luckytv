@@ -56,7 +56,7 @@ description="Movies and Tv Shows"
 
 name="Morpheus Tv"
 section="no"
-url="https://www.morpheustvbox.com/downloads/morpheustv_1.65(morpheustvbox.com).apk"
+url="https://www.morpheustvbox.com/downloads/morpheustv_1.66(morpheustvbox.com).apk"
 icon="https://archive.org/download/BackToTheFuture_201802/morpheus.png"
 fanart="http://"
 adult="no"
