@@ -1,6 +1,6 @@
 name="Mobdro"
 section="no"
-url="https://www.apkmirror.com/wp-content/themes/APKMirror/download.php?id=434028"
+url="https://www.mobdro.sc/mobdro.apk"
 icon="https://www.apkmirror.com/wp-content/uploads/2017/11/5a20400f9905a.png" 
 fanart="https://archive.org/download/BackToTheFuture_201802/mobdropic.jpg"
 adult="no"
