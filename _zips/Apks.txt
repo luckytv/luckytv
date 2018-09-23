@@ -48,7 +48,7 @@ description="Movie and Tv Shows"
 
 name="Cinema HD Movies"
 section="no"
-url="https://rink.hockeyapp.net/api/2/apps/2a392e043d344fccba5f0ad9c67480aa/app_versions/2?format=apk&avtoken=f9223918e86688690170d66e8f8698b145090f86"
+url="https://rink.hockeyapp.net/api/2/apps/2a392e043d344fccba5f0ad9c67480aa/app_versions/6?format=apk&avtoken=5d7b9ef95e1e0f1cbc6536ce05a7f4408f400ea5"
 icon="https://cdn.apkmonk.com/images/com.holaapp.hdmovies.png"
 fanart="http://"
 adult="no"
