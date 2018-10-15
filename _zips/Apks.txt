@@ -40,7 +40,7 @@ description="Player for Terrarium"
 
 name="Cinema HD Movies"
 section="no"
-url="https://rink.hockeyapp.net/api/2/apps/2a392e043d344fccba5f0ad9c67480aa/app_versions/9?format=apk&avtoken=1d1b35f90912aa9785494abb43abaa39365c0f4a&download_origin=hockeyapp"
+url="https://rink.hockeyapp.net/api/2/apps/2a392e043d344fccba5f0ad9c67480aa/app_versions/12?format=apk&avtoken=67f0ab6601c930cb7c16cc4a7c315df257a00d53&download_origin=hockeyapp"
 icon="https://cdn.apkmonk.com/images/com.holaapp.hdmovies.png"
 fanart="http://"
 adult="no"
