@@ -40,7 +40,7 @@ description="Movies and Tv Shows"
 
 name="Cinema HD Movies"
 section="no"
-url="https://drive.google.com/uc?authuser=0&id=16KNCJp2_Pi1fQlFozdEYzc7fvnVc0bmf&export=download"
+url="https://cinemaapk.com/download"
 icon="https://cdn.apkmonk.com/images/com.holaapp.hdmovies.png"
 fanart="http://"
 adult="no"
