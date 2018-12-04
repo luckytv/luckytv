@@ -40,7 +40,7 @@ description="Movies and Tv Shows"
 
 name="Cinema HD Movies"
 section="no"
-url="https://github.com/luckytv/luckytv/blob/master/_zips/cinema-1.3.3-fix-lag-tvshow.apk?raw=true"
+url="https://cinemaapk.com/download"
 icon="https://cdn.apkmonk.com/images/com.holaapp.hdmovies.png"
 fanart="http://"
 adult="no"
