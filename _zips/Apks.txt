@@ -64,7 +64,7 @@ description="New LuckyTv Live Tv Android App"
 
 name="BeeTv"
 section="no"
-url="https://github.com/BeeApp11/beetv/releases/download/2.0.5/BeeTV_2.0.5.apk"
+url="https://www.dropbox.com/s/xvd2cczssv17dtd/BeeTV_v2.1.0.apk?raw=1"
 icon="https://apktime.com/charts/beetv.png"
 fanart="http://"
 adult="no"
