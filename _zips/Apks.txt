@@ -32,7 +32,7 @@ description="Live Tv App"
 
 name="TVZion"
 section="no"
-url="https://api.tvzionapp.live/downloads/apk/latest"
+url="https://www12.tvzion.com/apps/android"
 icon="https://kodiapps.com/charts/tvzion.png" 
 fanart="http://"
 adult="no"
