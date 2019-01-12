@@ -64,7 +64,7 @@ description="New LuckyTv Live Tv Android App"
 
 name="BeeTv"
 section="no"
-url="https://www.dropbox.com/s/xvd2cczssv17dtd/BeeTV_v2.1.0.apk?raw=1"
+url="https://dl.dropboxusercontent.com/s/jlalpou27x59p8j/BeeTV_v2.1.3.apk"
 icon="https://apktime.com/charts/beetv.png"
 fanart="http://"
 adult="no"
