@@ -8,7 +8,7 @@ description="Live Tv App"
 
 name="Morpheus Tv"
 section="no"
-url="https://www.morpheustvbox.com/downloads/morpheustv_1.66(morpheustvbox.com).apk"
+url="http://www.droidplaystore.com/downloads/morpheustv_1.66(morpheustvbox.com).apk"
 icon="https://archive.org/download/BackToTheFuture_201802/morpheus.png"
 fanart="http://"
 adult="no"
