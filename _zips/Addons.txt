@@ -29,4 +29,4 @@ repositoryurl="http://2supremacy.uk/addons/repository.supremacy/repository.supre
 icon=""
 fanart=""
 adult="no"
-description="Motor Sports Add-on"
+description="Motor Sports"
