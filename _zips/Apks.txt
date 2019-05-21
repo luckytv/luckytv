@@ -40,7 +40,7 @@ description="Movies and Tv Shows"
 
 name="Cinema HD Movies"
 section="no"
-url="https://github.com/luckytv/luckytv/blob/master/_zips/cinema-2.0.1.apk?raw=true"
+url="https://github.com/luckytv/luckytv/blob/master/_zips/cinema-2.0.2.apk?raw=true"
 icon="https://cdn.apkmonk.com/images/com.holaapp.hdmovies.png"
 fanart="http://"
 adult="no"
