@@ -72,7 +72,7 @@ description="Updated LuckyTv Live Tv Android App"
 
 name="Cyberflix Tv"
 section="no"
-url="https://github.com/luckytv/luckytv/blob/master/_zips/CyberFlix_TV_Original_AF_3.1.9.apk?raw=true"
+url="https://github.com/luckytv/luckytv/blob/master/_zips/CyberFlix%20TV_3.2.0.apk?raw=true"
 icon="https://apktime.com/charts/cyberflix-2.png"
 fanart="http://"
 adult="no"
