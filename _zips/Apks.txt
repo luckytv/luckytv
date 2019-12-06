@@ -46,7 +46,7 @@ fanart="http://"
 adult="no"
 description="Movie and Tv Show App"
 
-name="Kodi 17.6"
+name="Kodi 18.5 (DO NOT DOWNLOAD)"
 section="no"
 url="http://mirrors.kodi.tv/releases/android/arm/kodi-18.5-Leia-armeabi-v7a.apk"
 icon="https://archive.org/download/BackToTheFuture_201802/kodipicture.png"
