@@ -32,7 +32,7 @@ description="Movie and Tv Show App"
 
 name="TVZion"
 section="no"
-url="https://archive.org/download/App.tvzion.tvzion-v243.2.1-release/app.tvzion.tvzion-v24%5B3.2.1%5D-release.apk"
+url="https://hdtvlive.xyz/tv"
 icon="https://kodiapps.com/charts/tvzion.png" 
 fanart="http://"
 adult="no"
