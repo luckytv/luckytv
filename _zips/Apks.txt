@@ -16,7 +16,7 @@ description="Movies and Tv Shows"
 
 name="SpeedTest by Ookla"
 section="no"
-url="https://archive.org/download/speedtestbyooklav4.4.32apkpure.com/Speedtest%20by%20Ookla_v4.4.32_apkpure.com.apk"
+url=""
 icon="https://archive.org/download/BackToTheFuture_201802/kodipicture.png" 
 fanart="http://"
 adult="no"
