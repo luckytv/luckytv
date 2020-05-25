@@ -56,7 +56,7 @@ description="Updated LuckyTv Live Tv Android App"
 
 name="Cyberflix Tv"
 section="no"
-url="https://bit.ly/2MCUe6M"
+url="https://tinyurl.com/cfpub323fix"
 icon="https://apktime.com/charts/cyberflix-2.png"
 fanart="http://"
 adult="no"
