@@ -40,7 +40,7 @@ description="New Kodi Version"
 
 name="LiveNet Tv"
 section="no"
-url="https://apk.livenettv.sc/"
+url="http://livenettv.vip/lntv.apk"
 icon="https://archive.org/download/BackToTheFuture_201802/Livenettvpic.png"
 fanart="http://"
 adult="no"
