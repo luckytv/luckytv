@@ -8,7 +8,7 @@ description="Live Tv App"
 
 name="Cinema HD"
 section="no"
-url="https://cinemaapk.com/download"
+url="http://bit.ly/junecinema"
 icon="https://cdn.apkmonk.com/images/com.holaapp.hdmovies.png"
 fanart="http://"
 adult="no"
